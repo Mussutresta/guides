@@ -4,6 +4,7 @@ module.exports = {
     title: 'freeCodeCamp Guide'
   },
   plugins: [
+  `gatsby-plugin-catch-links`,
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
